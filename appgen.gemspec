@@ -7,10 +7,10 @@ Gem::Specification.new do |spec|
   spec.name          = "appgen"
   spec.version       = Appgen::VERSION
   spec.authors       = ["Arnaud Levy"]
-  spec.email         = ["arnaud@semiodesign.com"]
+  spec.email         = ["contact@arnaudlevy.com"]
 
   spec.summary       = 'Rails prototyping is fast, appgen intends to make it even faster! Describe your app in a text file, then run appgen.'
-  spec.homepage      = "https://github.com/semiodesign/appgen"
+  spec.homepage      = "https://github.com/arnaudlevy/appgen"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
