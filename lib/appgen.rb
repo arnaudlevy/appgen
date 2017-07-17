@@ -1,5 +1,12 @@
-require "appgen/version"
+require 'appgen/version'
+require 'thor'
 
 module Appgen
-  # Your code goes here...
+  class CLI < Thor
+
+    desc "appgen", "Generates app from description"
+    def appgen
+
+    end
+  end
 end
