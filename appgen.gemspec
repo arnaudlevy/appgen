@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Arnaud Levy"]
   spec.email         = ["contact@arnaudlevy.com"]
 
-  spec.summary       = 'Rails prototyping is fast, appgen intends to make it even faster! Describe your app in a text file, then run appgen.'
+  spec.summary       = 'Rails prototyping is fast, appgen intends to make it even faster!'
   spec.homepage      = "https://github.com/arnaudlevy/appgen"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
