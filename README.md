@@ -39,8 +39,13 @@ Here is the rails blog demonstration as appgen description:
     There are comments.
     A comment has a user.
 
-Some more descriptions in examples folder.
+Some more descriptions in [examples](https://github.com/arnaudlevy/appgen/tree/master/examples).
 Feel free to contribute with yours!
+
+## Possible roadmap 
+
+Ideas about possible features.
+Right now, i just feel it goes too far.
 
 ### Hosting
 
@@ -59,19 +64,6 @@ If you want the app to be created in Europe, use:
 
     The app is hosted on heroku in Europe.
 
-### Examples
-
-Todo list
-    
-    The app name is mytodolist.
-    There are actions.
-    An action has a title, a done status (boolean) and a user.
-    There are users.
-    A user has a first name, a last name, and an email.
-    Users can login.
-    The app has an admin area.
-    The app is hosted on heroku.
-
 ### Components used
 
 The app generated use these gems by default
@@ -80,8 +72,8 @@ The app generated use these gems by default
 - bootstrap
 - kaminari
 
-### Roadmap
-- make it work
+### Features
+
 - make default route to first entity described
 - add attachments (paperclip, aws)
 - add navigation (simple-navigation)
@@ -95,7 +87,6 @@ The app generated use these gems by default
 - http://guides.rubyonrails.org/rails_application_templates.html
 - https://prelang.com
 - https://github.com/mjacobus/koine-appgenerator
-
 
 ## Development
 
