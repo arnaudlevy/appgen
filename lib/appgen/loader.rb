@@ -1,15 +1,27 @@
+require 'open-uri'
+
 module Appgen
   class Loader
     def self.load(path=nil)
-      # TODO load from local file or from local path or from distant path
-      puts 'Loading custom app'
-      "The app name is blogdemo.
-There are posts.
-A post has a title, a text (as text), a user, and comments.
-There are users.
-A user has a name.
-There are comments.
-A comment has a user."
+      path = find_local_path if path.nil?
+      puts 'No description found, you should add an app description in a file, or call appgen with a path or url.' and return if path.nil?
+      read_description path
+    end
+
+    def self.find_local_path
+      Dir['*'].each do |entry|
+        next if File.directory? entry
+        next if entry.start_with? '.'
+        puts "Found file named #{entry}"
+        return entry
+      end
+    end
+
+    def self.read_description(path)
+      puts "Loading app description from #{path}"
+      app = open(path) { |f| f.read }
+      puts app
+      app
     end
   end
 end

@@ -5,17 +5,7 @@ Describe your app in a text file, then run appgen.
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'appgen'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
+Install the gem:
 
     $ gem install appgen
 
@@ -29,6 +19,10 @@ By default appgen will run the first text file in the current directory.
 If you want to use a specific file, then do 
 
     $ appgen a_specific_file.txt
+
+Or you can work with an online file 
+
+    $ appgen https://raw.githubusercontent.com/arnaudlevy/appgen/master/examples/blogdemo.txt
 
 ## Writing app descriptions
 
