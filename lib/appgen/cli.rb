@@ -1,11 +1,11 @@
-require 'thor'
+require 'appgen/loader'
+require 'appgen/generator'
 
 module Appgen
-  class CLI < Thor
-
-    desc "appgen", "Generates app from description"
-    def appgen
-      puts 'ok'
+  class CLI
+    def self.execute(path=nil)
+      app = Appgen::Loader.load path
+      Appgen::Generator.generate app
     end
   end
 end
