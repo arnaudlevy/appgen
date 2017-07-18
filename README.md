@@ -36,6 +36,9 @@ Here is the rails blog demonstration as appgen description:
     There are comments.
     A comment has a user.
 
+Some more descriptions in examples folder.
+Feel free to contribute with yours!
+
 ### Hosting
 
 And if you want to host it on heroku, just add:
