@@ -1,0 +1,8 @@
+The app name is mytodolist.
+There are actions.
+An action has a title, a done status (boolean) and a user.
+There are users.
+A user has a first name, a last name, and an email.
+Users can login.
+The app has an admin area.
+The app is hosted on heroku.
