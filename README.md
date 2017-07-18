@@ -3,6 +3,9 @@
 Rails prototyping is fast, appgen intends to make it even faster!
 Describe your app in a text file, then run appgen.
 
+[![Gem Version](https://badge.fury.io/rb/appgen.svg)](https://badge.fury.io/rb/appgen)
+[![Code Climate](https://codeclimate.com/github/arnaudlevy/appgen/badges/gpa.svg)](https://codeclimate.com/github/arnaudlevy/appgen)
+
 ## Installation
 
 Install the gem:
