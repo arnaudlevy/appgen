@@ -95,7 +95,7 @@ module Appgen
 
     def run(command)
       puts "$ #{command}"
-      # system command
+      system command
     end
   end
 end
